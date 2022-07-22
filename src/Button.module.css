@@ -1,0 +1,22 @@
+.calcbutt{
+    margin-top: 9px;
+    margin-bottom: 9px;
+    margin-left: 7px;
+    margin-right: 3px;
+    height: 75px;
+    width: 70px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: #f4f1f1;
+    user-select: none;
+    box-shadow: 10px 10px 60px #bebebe,
+    -10px -10px 60px #ffffff;
+}
+
+.res{
+    width: 140px;
+    background-color: orange;
+}
