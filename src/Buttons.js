@@ -1,10 +1,10 @@
 import React from 'react'
 import classes from "./Button.module.css"
 
-function Buttons({value,handler}) {
+function Buttons(props) {
   return (
-    <div className={value == "C" || value == "=" ? `${classes.calcbutt} ${classes.res}` : `${classes.calcbutt}`} onClick={()=>handler(value)}>
-    {value}
+    <div className={props.value == "C" || props.value == "=" ? `${classes.calcbutt} ${classes.res}` : `${classes.calcbutt}`} onClick={()=>props.handler(props.value)}>
+    {props.value}
     </div>
   )
 }
